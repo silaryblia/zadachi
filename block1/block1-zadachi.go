@@ -1,5 +1,6 @@
 package main
 
+/*
 import "fmt"
 
 var name int = 5

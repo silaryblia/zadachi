@@ -1,8 +1,8 @@
-package main
+package cycles
 
 import "fmt"
 
-func main() {
+func chetnechet() {
 	var number int
 	fmt.Println("Введите ваше число:")
 	fmt.Scan(&number)

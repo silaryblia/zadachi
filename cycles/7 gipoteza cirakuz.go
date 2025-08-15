@@ -1,4 +1,6 @@
-package main
+package cirakuz
+
+// Проверка гипотезы Сиракуз
 
 import "fmt"
 
