@@ -1,11 +1,10 @@
-package block1
+package main
 
-/*
 import "fmt"
 
 var name int = 5
 
-func main() {
+func gg() {
 	changeName()
 }
 
