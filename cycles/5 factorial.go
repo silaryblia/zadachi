@@ -1,10 +1,10 @@
-package factorial
+package cycles
 
 import "fmt"
 
 // Вычисление факториала числа
 
-func main() {
+func factorial() {
 	var a int
 	fmt.Println("Введите число:")
 	fmt.Scan(&a)

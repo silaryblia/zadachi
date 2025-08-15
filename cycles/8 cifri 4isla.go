@@ -1,4 +1,4 @@
-package cifri
+package cycles
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 
 // Извлечение цифр числа
 
-func main() {
+func izvlechenie() {
 	var number int
 	fmt.Println("Введите целое число:")
 	fmt.Scan(&number)

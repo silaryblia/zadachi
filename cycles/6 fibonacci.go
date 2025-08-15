@@ -1,4 +1,4 @@
-package fibonacci
+package cycles
 
 import "fmt"
 

@@ -1,10 +1,10 @@
-package summaproizvedenie
+package cycles
 
 import "fmt"
 
 // Сумма и произведение цифр числа
 
-func main() {
+func summaiproizvedenie() {
 	var number int
 	sum := 0
 	mult := 1

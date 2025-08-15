@@ -1,4 +1,4 @@
-package stepen
+package cycles
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 )
 
 // Возведение числа в степень
-func main() {
+func mastepen() {
 	var a, b float64
 	fmt.Println("Введите число:")
 	fmt.Scan(&a)

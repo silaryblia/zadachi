@@ -1,10 +1,10 @@
-package summachetnih
+package cycles
 
 import "fmt"
 
 // Найти сумму четных цифр числа
 
-func main() {
+func summachetnih() {
 	var number int
 	fmt.Print("Введите натуральное число: ")
 	fmt.Scan(&number)

@@ -1,10 +1,10 @@
-package cirakuz
+package cycles
 
 // Проверка гипотезы Сиракуз
 
 import "fmt"
 
-func main() {
+func cirakuz() {
 
 	fmt.Println("Гипотеза Сиракуз (20-30):")
 	for n := 20; n <= 30; n++ {

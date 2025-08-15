@@ -1,10 +1,10 @@
-package tablicaznacheniy
+package cycles
 
 import "fmt"
 
 // Вывести таблицу значений функции
 
-func main() {
+func tablica() {
 
 	fmt.Println("Таблицу значений функции y=5-x^2/2")
 	fmt.Println("------------------")
