@@ -1,10 +1,10 @@
-package main
+package cycles
 
 import "fmt"
 
 // Найти одинаковые цифры двух чисел
 
-func main() {
+func odinikov() {
 	var a, b int
 
 	fmt.Println("Введите два числа: ")
@@ -35,5 +35,4 @@ func main() {
 		}
 	}
 	fmt.Println()
-
 }

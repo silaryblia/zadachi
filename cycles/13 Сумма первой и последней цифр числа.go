@@ -1,10 +1,10 @@
-package main
+package cycles
 
 import "fmt"
 
 // Сумма первой и последней цифр числа
 
-func main() {
+func summacirfch() {
 	var number, first, last int
 	fmt.Scan(&number)
 	last = number % 10
