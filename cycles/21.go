@@ -1,5 +1,7 @@
 package cycles
 
-func asfdsdfsdf() {
+import "fmt"
 
+func asfdsdfsdf() {
+	fmt.Println()
 }
