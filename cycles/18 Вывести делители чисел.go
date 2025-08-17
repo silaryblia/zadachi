@@ -14,10 +14,10 @@ func vivest() {
 	var m, n int
 	fmt.Println("Введите числа от M до N (через пробел)")
 	fmt.Scan(&m, &n)
-	for ; m <= n; m++ {
-		fmt.Printf("%d: ", m)
-		for d := 2; d <= m/2; d++ {
-			if m%d == 0 {
+	for num := m; num <= n; num++ {
+		fmt.Printf("%d: ", num)
+		for d := 2; d <= num/2; d++ {
+			if num%d == 0 {
 				fmt.Print(d, " ")
 			}
 		}

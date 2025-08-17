@@ -1,5 +1,0 @@
-package cycles
-
-func asfdsdfsdf() {
-
-}
