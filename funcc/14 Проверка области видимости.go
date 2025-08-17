@@ -1,14 +1,15 @@
-package main
+package funcc
 
 import "fmt"
 
-func main() {
 var name int = 5
 
-func gg() {
+func proverka() {
+	// видна (10)
 	changeName()
 }
 
 func changeName() {
+
 	fmt.Println(name + 5)
 }
