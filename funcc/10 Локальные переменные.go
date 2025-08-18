@@ -1,8 +1,8 @@
-package main
+package funcc
 
 import "fmt"
 
-func main() {
+func localperem() {
 	scopedVar()
 }
 

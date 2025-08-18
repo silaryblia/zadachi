@@ -1,8 +1,8 @@
-package main
+package funcc
 
 import "fmt"
 
-func main() {
+func vozvrat() {
 	double := makeMultiplier(2)
 	fmt.Println(double(5)) // 10
 }

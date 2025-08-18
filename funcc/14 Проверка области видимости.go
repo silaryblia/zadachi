@@ -2,14 +2,14 @@ package funcc
 
 import "fmt"
 
-var name int = 5
-
-func proverka() {
-	// видна (10)
-	changeName()
-}
+var name string = "Molly"
 
 func changeName() {
+	name = "Joshua"
+}
 
-	fmt.Println(name + 5)
+func proverka() {
+	fmt.Println("Было:", name) // Molly
+	changeName()
+	fmt.Println("Стало:", name) // Joshua
 }
