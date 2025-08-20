@@ -3,12 +3,16 @@ package main
 import "fmt"
 
 func main() {
-var name int = 5
-
-func gg() {
-	changeName()
-}
-
-func changeName() {
-	fmt.Println(name + 5)
+	fmt.Println("Совершенные числа от 1 до 10000:")
+	for n := 1; n <= 10000; n++ {
+		sum := 0
+		for i := 1; i <= n/2; i++ {
+			if n%i == 0 {
+				sum += i
+			}
+		}
+		if sum == n {
+			fmt.Println(n)
+		}
+	}
 }

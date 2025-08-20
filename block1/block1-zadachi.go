@@ -1,9 +1,9 @@
 package main
 
+/*
 import "fmt"
 
 func main() {
-	double(5)
 	fmt.Println(double(3))
 }
 
