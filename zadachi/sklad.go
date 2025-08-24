@@ -18,7 +18,7 @@ func NewProduct(id int, name string, quantity int) Product {
 }
 
 // Метод для возврата продукта (геттер)
-func (p Product) ReturnProduct() Product {
+func (p *Product) ReturnProduct() *Product {
 	return p
 }
 
